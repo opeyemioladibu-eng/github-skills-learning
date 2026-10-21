@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bEls2jkOQnk=",
+  "success": true,
+  "projectFilePath": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/src/Attendee/Attendee.csproj",
+  "expectedPackageFiles": [
+    "/tmp/codeql-scratch-a6bbf7ac260bfee5/dbs/csharp/working/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-a6bbf7ac260bfee5/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
