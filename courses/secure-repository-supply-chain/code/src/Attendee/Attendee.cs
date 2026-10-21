@@ -9,7 +9,20 @@ namespace Attendees
     {
         public void WriteToDirectory(ZipArchiveEntry entry, string destDirectory)
         {
-            string destFileName = Path.Combine(destDirectory, entry.FullName);
+            string normalizedDestDirectory = Path.GetFullPath(destDirectory);
+            string destFileName = Path.GetFullPath(Path.Combine(normalizedDestDirectory, entry.FullName));
+
+            if (!destFileName.StartsWith(normalizedDestDirectory + Path.DirectorySeparatorChar, StringComparison.Ordinal))
+            {
+                throw new InvalidOperationException("Archive entry points outside the destination directory.");
+            }
+
+            string destFileParent = Path.GetDirectoryName(destFileName);
+            if (!string.IsNullOrEmpty(destFileParent))
+            {
+                Directory.CreateDirectory(destFileParent);
+            }
+
             entry.ExtractToFile(destFileName);
         }
         
