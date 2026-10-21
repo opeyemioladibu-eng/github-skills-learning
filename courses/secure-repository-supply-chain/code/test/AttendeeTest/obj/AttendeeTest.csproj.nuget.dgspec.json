@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/test/AttendeeTest/AttendeeTest.csproj": {}
+  },
+  "projects": {
+    "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/src/Attendee/Attendee.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/src/Attendee/Attendee.csproj",
+        "projectName": "Attendee",
+        "projectPath": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/src/Attendee/Attendee.csproj",
+        "packagesPath": "/tmp/codeql-scratch-a6bbf7ac260bfee5/dbs/csharp/working/packages",
+        "outputPath": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/src/Attendee/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "framework": "net5.0",
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net5.0": {
+          "framework": "net5.0",
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/test/AttendeeTest/AttendeeTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/test/AttendeeTest/AttendeeTest.csproj",
+        "projectName": "AttendeeTest",
+        "projectPath": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/test/AttendeeTest/AttendeeTest.csproj",
+        "packagesPath": "/tmp/codeql-scratch-a6bbf7ac260bfee5/dbs/csharp/working/packages",
+        "outputPath": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/test/AttendeeTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "framework": "net5.0",
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/src/Attendee/Attendee.csproj": {
+                "projectPath": "/home/runner/work/github-skills-learning/github-skills-learning/courses/secure-repository-supply-chain/code/src/Attendee/Attendee.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net5.0": {
+          "framework": "net5.0",
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
